@@ -198,7 +198,7 @@ fn elevate_install(
     if !same_plugin_exists {
         args.push(&plugin_url);
     }
-    crate::platform::elevate(args, "Remote Point wants to install then plugin")
+    crate::platform::elevate(args, "Remote Point wants to install the plugin")
 }
 
 #[inline]
